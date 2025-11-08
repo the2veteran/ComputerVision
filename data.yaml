@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Bike', 'HV', 'auto', 'car', 'truck']
+
+roboflow:
+  workspace: v2eteran1
+  project: sample-fvfuq
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/v2eteran1/sample-fvfuq/dataset/1
