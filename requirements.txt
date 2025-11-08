@@ -1,0 +1,14 @@
+ultralytics>=8.0.0
+opencv-python
+numpy
+scipy
+torch>=1.12
+torchvision
+pip install ultralytics opencv-python pyproj utm numpy pandas
+scikit-learn
+lap
+filterpy
+pandas
+tqdm
+faiss-cpu # optional, for fast nearest neighbors
+torchreid==0.6.0 # optional: reid toolbox (or use a custom OSNet implementation)
